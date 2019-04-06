@@ -1,0 +1,19 @@
+4 3
+135919249
+read_image 0 1 1 0 0 1 0 0
+read_image (Image, 'monkey')
+Image
+'monkey'
+dev_close_window 0 0 0 0 0 2 0 0
+dev_close_window ()
+dev_open_window 0 0 5 1 0 2 0 0
+dev_open_window (0, 0, 512, 512, 'black', WindowHandle)
+0
+0
+512
+512
+'black'
+WindowHandle
+dev_display 1 0 0 0 0 2 0 0
+dev_display (Image)
+Image
